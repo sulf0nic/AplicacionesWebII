@@ -7,7 +7,7 @@ var ctx = document.getElementById("myBarChart");
 var myLineChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["January", "February", "March", "April", "May", "June"],
+    labels: ["30", "31", "32", "33", "34", "35"],
     datasets: [{
       label: "Revenue",
       backgroundColor: "rgba(2,117,216,1)",
@@ -19,7 +19,7 @@ var myLineChart = new Chart(ctx, {
     scales: {
       xAxes: [{
         time: {
-          unit: 'month'
+          unit: 'week'
         },
         gridLines: {
           display: false
